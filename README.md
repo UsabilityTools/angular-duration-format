@@ -38,11 +38,11 @@ The result should be the same in both cases:
 
 ## Format options ##
 Available formatting options:
- * (y)ear
- * (d)ay
- * (h)our
- * (m)inute
- * (s)econd
+ * `y`ear
+ * `d`ay
+ * `h`our
+ * `m`inute
+ * `s`econd
  * `sss` for milliseconds
 
 Each number will be zero-padded to two places if you double letters (ex. `hh`, `mm`). Milliseconds are exception - they are padded to four places and you have to pass four letters (`ssss`).
